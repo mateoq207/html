@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenidos a la Escuela</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
             background-color: pink;
@@ -56,6 +57,55 @@
         .btn:hover {
             background-color: #45a049;
         }
+         margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .top-menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .top-menu a {
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+      transition: color 0.2s;
+    }
+
+    .top-menu a:hover {
+      color: #000;
+    }
+
+    .content {
+      padding-top: 60px; /* espacio para el menú fijo */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="top-menu">
+    <a href="#"><i class="fas fa-home"></i></a>
+    <a href="#"><i class="fas fa-search"></i></a>
+    <a href="#"><i class="fas fa-video"></i></a>
+    <a href="#"><i class="far fa-heart"></i></a>
+    <a href="#"><i class="far fa-user-circle"></i></a>
+  </nav>
+
+  <div class="content">
+    <h1>Contenido de la página</h1>
+    <p>Este es un ejemplo de cómo se ve el menú arriba, como en Instagram.</p>
+  </div>
+
     </style>
 </head>
 
