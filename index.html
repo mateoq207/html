@@ -2,146 +2,137 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a la Escuela</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        body {
-            background-color: pink;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 300px;
-        }
-
-        .container h1 {
-            color: #333;
-        }
-
-        .container img {
-            width: 100%;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .input-field {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        .btn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        .btn:hover {
-            background-color: #45a049;
-        }
-         margin: 0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenidos a la Escuela</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: pink;
       font-family: Arial, sans-serif;
+      margin: 0;
     }
 
-    .top-menu {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      background-color: #fff;
-      padding: 10px 0;
+    /* Menú estilo Instagram */
+    .instagram-menu {
+      background-color: white;
       border-bottom: 1px solid #ddd;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 1000;
     }
 
-    .top-menu a {
-      text-decoration: none;
-      color: #333;
+    .instagram-menu .logo {
+      font-weight: bold;
       font-size: 20px;
-      transition: color 0.2s;
-    }
-
-    .top-menu a:hover {
       color: #000;
     }
 
-    .content {
-      padding-top: 60px; /* espacio para el menú fijo */
+    .instagram-menu .icons i {
+      margin-left: 20px;
+      font-size: 18px;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      margin: 100px auto 0 auto; /* Espacio para el menú */
       text-align: center;
+    }
+
+    .container h1 {
+      color: #333;
+    }
+
+    .container img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
     }
   </style>
 </head>
-<body>
-
-  <nav class="top-menu">
-    <a href="#"><i class="fas fa-home"></i></a>
-    <a href="#"><i class="fas fa-search"></i></a>
-    <a href="#"><i class="fas fa-video"></i></a>
-    <a href="#"><i class="far fa-heart"></i></a>
-    <a href="#"><i class="far fa-user-circle"></i></a>
-  </nav>
-
-  <div class="content">
-    <h1>Contenido de la página</h1>
-    <p>Este es un ejemplo de cómo se ve el menú arriba, como en Instagram.</p>
-  </div>
-
-    </style>
-</head>
 
 <body>
 
-    <div class="container">
-        <h1>Bienvenidos a la Escuela</h1>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-169stOhF7l6YsNJDbF9ZsgpZPj6r0drfIvP7JtMMLPH9gh05EeJVBpX8bGziArzmwI&usqp=CAU"
-            alt="Escuela proa">
-        <form action="inicio.php" method="POST">
-            <input class="input-field" type="text" name="usuario" placeholder="Usuario" required>
-            <input class="input-field" type="password" name="contraseña" placeholder="Contraseña" required>
-            <button type="submit" class="btn">Iniciar Sesión</button>
-        </form>
-    </div>
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+  <!-- Menú estilo Instagram -->
+  <div class="instagram-menu">
+    <div class="logo">Instagram</div>
+    <div class="icons">
+      <i class="fas fa-home"></i>
+      <i class="fas fa-search"></i>
+      <i class="fas fa-plus-square"></i>
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-user"></i>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <h1>Bienvenidos a la Escuela</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-169stOhF7l6YsNJDbF9ZsgpZPj6r0drfIvP7JtMMLPH9gh05EeJVBpX8bGziArzmwI&usqp=CAU"
+      alt="Escuela proa">
+    <form action="inicio.php" method="POST">
+      <input class="input-field" type="text" name="usuario" placeholder="Usuario" required>
+      <input class="input-field" type="password" name="contraseña" placeholder="Contraseña" required>
+      <button type="submit" class="btn">Iniciar Sesión</button>
+    </form>
+  </div>
+
+  <!-- Carrusel (no funcional sin Bootstrap JS y CSS) -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 </body>
 
 </html>
