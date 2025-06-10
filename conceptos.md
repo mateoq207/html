@@ -1,4 +1,4 @@
-El stack de desarrollo (o stack tecnológico)
+#El stack de desarrollo (o stack tecnológico)
  se refiere al conjunto de tecnologías y herramientas utilizadas para 
 desarrollar una aplicación o sitio web. Incluye tanto las tecnologías 
 del lado del cliente (front-end) como del lado del servidor (back-end) 
