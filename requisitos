@@ -1,0 +1,40 @@
+#Proyecto
+
+Este proyecto consiste en una aplicación web sencilla desarrollada con tecnologías básicas como PHP, HTML, CSS y MySQL, y se ejecuta localmente mediante XAMPP.
+Su objetivo principal es facilitar la gestión de estudiantes en un entorno educativo, como una escuela o curso, permitiendo registrar y consultar información básica de los alumnos.
+
+#¿Qué hace?
+
+La aplicación muestra una tabla con los datos de los alumnos previamente registrados en la base de datos, incluyendo el DNI, legajo y curso. También ofrece un formulario para añadir nuevos estudiantes.
+La información ingresada se guarda automáticamente en la base de datos y, al actualizar la página, los nuevos registros se reflejan en la tabla junto con los existentes.
+Además, el proyecto incluye archivos que sugieren funcionalidades adicionales, como la administración de notas, aunque esa parte aún podría estar en desarrollo o no completamente implementada.
+
+#Requerimientos funcionales
+
+Mostrar una tabla con la información actual de todos los estudiantes registrados.
+
+Permitir el ingreso de nuevos alumnos mediante un formulario.
+
+Almacenar los datos ingresados en la base de datos.
+
+Refrescar automáticamente la tabla para mostrar los registros más recientes.
+
+Conectarse correctamente a la base de datos al iniciar la página.
+
+Manejar adecuadamente errores de conexión o de inserción de datos.
+
+#Requerimientos no funcionales
+
+El sistema es liviano y de uso intuitivo, ideal para docentes o personal administrativo sin experiencia técnica.
+
+Debe ejecutarse localmente sin necesidad de conexión a Internet.
+
+Ofrece un rendimiento ágil, ya que solo realiza operaciones básicas de consulta e inserción.
+
+Está diseñado para funcionar correctamente en cualquier equipo que tenga XAMPP instalado.
+
+El código está estructurado de forma simple pero funcional, lo que facilita futuras modificaciones o mejoras.
+
+Se recomienda incluir medidas básicas de seguridad, como validación de datos para prevenir errores o ataques de inyección SQL.
+
+La interfaz es sencilla, clara y centrada en una única función: visualizar y registrar estudiantes.
