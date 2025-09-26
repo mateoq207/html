@@ -1,0 +1,73 @@
+# ¿Qué es Scrum?
+
+**Scrum** es un *framework ágil* utilizado para desarrollar productos complejos, especialmente en software. Se basa en ciclos de trabajo cortos llamados **sprints**, donde equipos autoorganizados entregan valor de forma rápida y continua.
+
+---
+
+## Elementos Clave de Scrum
+
+### Roles
+
+- **Product Owner (Propietario del producto)**  
+  Define qué debe construirse, prioriza las tareas según el valor de negocio.
+
+- **Scrum Master**  
+  Facilita el proceso, elimina obstáculos, y asegura el buen uso del framework.
+
+- **Equipo de Desarrollo (Development Team)**  
+  Grupo autoorganizado responsable de construir el producto. Multidisciplinario y autónomo.
+
+---
+
+### Eventos Scrum
+
+- **Sprint**  
+  Ciclo de trabajo constante (1 a 4 semanas) con un objetivo claro.
+
+- **Sprint Planning**  
+  Reunión al inicio del sprint para definir qué se va a hacer.
+
+- **Daily Scrum (Reunión diaria)**  
+  Reunión breve (máx. 15 minutos) para sincronizar avances.
+
+- **Sprint Review**  
+  Presentación del trabajo realizado al final del sprint.
+
+- **Sprint Retrospective**  
+  Reflexión sobre el proceso: ¿Qué funcionó? ¿Qué se puede mejorar?
+
+---
+
+### Artefactos
+
+- **Product Backlog**  
+  Lista priorizada de todas las funcionalidades o tareas pendientes del producto.
+
+- **Sprint Backlog**  
+  Subconjunto del Product Backlog que se trabajará en el sprint actual.
+
+- **Incremento**  
+  Resultado potencialmente entregable del sprint; una versión funcional del producto.
+
+---
+
+## Beneficios de Scrum
+
+- Adaptabilidad al cambio.
+- Entregas frecuentes y de valor.
+- Transparencia en el trabajo.
+- Mejora continua.
+- Mayor colaboración en el equipo.
+- Satisfacción del cliente.
+
+
+
+## Ejemplo Básico
+
+Supongamos que un equipo quiere desarrollar una **app de tareas**. Usan Scrum para organizarse:
+
+1. El **Product Owner** crea una lista de funcionalidades (Product Backlog).
+2. El equipo elige qué funcionalidades desarrollar en las próximas 2 semanas (Sprint).
+3. Cada día hacen una reunión rápida (Daily Scrum) para ver avances.
+4. Al final del sprint, presentan el prototipo funcional (Sprint Review).
+5. Luego analizan cómo pueden mejorar el proceso (Retrospective).
